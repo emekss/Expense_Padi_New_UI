@@ -12,11 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: CustomPageBackGroundPage(
-        curvedShapeColor: Color.fromRGBO(196, 211, 223, 1),
-        backColor: Color.fromRGBO(50, 90, 250, 1),
-        title: 'EXPENSE PADI',
-      ),
+      home: HomeScreen(),
       debugShowCheckedModeBanner: false,
     );
   }
