@@ -9,27 +9,39 @@ class BalanceCard extends StatelessWidget {
       height: 149,
       width: 312,
       decoration: BoxDecoration(
-          color: Colors.blue, borderRadius: BorderRadius.circular(12)),
-      child: const Column(
-        children: [
-          Text(
-            'Total Balance',
-            style: TextStyle(fontSize: 15),
-          ),
-          Row(
-            children: [
-              Text(
-                '300,000',
-                style: TextStyle(fontSize: 30),
-              ),
-              SizedBox(width: 20),
-              Text(
-                'NGN',
-                style: TextStyle(fontSize: 20),
-              )
-            ],
-          )
-        ],
+          color: Colors.green, borderRadius: BorderRadius.circular(12)),
+      child: const Padding(
+        padding: EdgeInsets.all(20.0),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text(
+              'Total Balance',
+              style: TextStyle(fontSize: 20, color: Colors.white),
+            ),
+            SizedBox(height: 20),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Text(
+                  '300,000',
+                  style: TextStyle(
+                      fontSize: 30,
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold),
+                ),
+                SizedBox(width: 20),
+                Text(
+                  'NGN',
+                  style: TextStyle(
+                      fontSize: 20,
+                      color: Colors.white,
+                      fontWeight: FontWeight.w500),
+                )
+              ],
+            )
+          ],
+        ),
       ),
     );
   }

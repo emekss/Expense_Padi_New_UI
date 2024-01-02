@@ -11,6 +11,7 @@ class HomeScreen extends StatelessWidget {
       child: Padding(
         padding: EdgeInsets.all(20.0),
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
               'Hello, Emeka!',
@@ -20,7 +21,8 @@ class HomeScreen extends StatelessWidget {
               'Welcome to ExpensePadi',
               style: TextStyle(fontSize: 15),
             ),
-            BalanceCard()
+            SizedBox(height: 20),
+            Center(child: BalanceCard())
           ],
         ),
       ),
