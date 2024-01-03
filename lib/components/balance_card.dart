@@ -9,7 +9,7 @@ class BalanceCard extends StatelessWidget {
       height: 149,
       width: 312,
       decoration: BoxDecoration(
-          color: Colors.green, borderRadius: BorderRadius.circular(12)),
+          color: Colors.white, borderRadius: BorderRadius.circular(12)),
       child: const Padding(
         padding: EdgeInsets.all(20.0),
         child: Column(
@@ -17,26 +17,20 @@ class BalanceCard extends StatelessWidget {
           children: [
             Text(
               'Total Balance',
-              style: TextStyle(fontSize: 20, color: Colors.white),
+              style: TextStyle(fontSize: 20),
             ),
-            SizedBox(height: 20),
+            SizedBox(height: 10),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Text(
                   '300,000',
-                  style: TextStyle(
-                      fontSize: 30,
-                      color: Colors.white,
-                      fontWeight: FontWeight.bold),
+                  style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
                 ),
                 SizedBox(width: 20),
                 Text(
                   'NGN',
-                  style: TextStyle(
-                      fontSize: 20,
-                      color: Colors.white,
-                      fontWeight: FontWeight.w500),
+                  style: TextStyle(fontSize: 20, fontWeight: FontWeight.w500),
                 )
               ],
             )
