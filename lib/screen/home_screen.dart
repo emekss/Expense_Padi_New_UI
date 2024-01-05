@@ -31,7 +31,10 @@ class HomeScreen extends StatelessWidget {
                     style: TextStyle(fontSize: 15, color: Colors.white),
                   ),
                   SizedBox(height: 20),
-                  Center(child: BalanceCard()),
+                  Center(
+                      child: BalanceCard(
+                    title: 'Total Balance',
+                  )),
                   SizedBox(height: 10),
                   Text(
                     'Overview',
