@@ -2,8 +2,14 @@ import 'package:flutter/material.dart';
 
 class TransactionCard extends StatelessWidget {
   final String label;
+  final String price;
   final Color color;
-  const TransactionCard({super.key, required this.color, required this.label});
+  const TransactionCard({
+    super.key,
+    required this.color,
+    required this.label,
+    required this.price,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -42,7 +48,7 @@ class TransactionCard extends StatelessWidget {
                       '14 Aug, 2023',
                     ),
                     Text(
-                      'N900',
+                      price,
                       style: TextStyle(
                           fontWeight: FontWeight.bold,
                           color: color,

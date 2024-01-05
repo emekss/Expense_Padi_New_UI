@@ -70,26 +70,31 @@ class HomeScreen extends StatelessWidget {
                           TransactionCard(
                             color: Colors.green,
                             label: 'Supermarket',
+                            price: '1200',
                           ),
                           SizedBox(height: 10),
                           TransactionCard(
                             color: Colors.red,
                             label: 'Supermarket',
+                            price: '800',
                           ),
                           SizedBox(height: 10),
                           TransactionCard(
                             color: Colors.green,
                             label: 'Supermarket',
+                            price: '700',
                           ),
                           SizedBox(height: 10),
                           TransactionCard(
                             color: Colors.red,
                             label: 'Supermarket',
+                            price: '200',
                           ),
                           SizedBox(height: 10),
                           TransactionCard(
                             color: Colors.green,
                             label: 'Supermarket',
+                            price: '900',
                           ),
                           SizedBox(height: 10),
                         ],
