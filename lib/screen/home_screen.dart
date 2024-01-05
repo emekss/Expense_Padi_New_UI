@@ -67,15 +67,30 @@ class HomeScreen extends StatelessWidget {
                       height: 700,
                       child: Column(
                         children: [
-                          TransactionCard(),
+                          TransactionCard(
+                            color: Colors.green,
+                            label: 'Supermarket',
+                          ),
                           SizedBox(height: 10),
-                          TransactionCard(),
+                          TransactionCard(
+                            color: Colors.red,
+                            label: 'Supermarket',
+                          ),
                           SizedBox(height: 10),
-                          TransactionCard(),
+                          TransactionCard(
+                            color: Colors.green,
+                            label: 'Supermarket',
+                          ),
                           SizedBox(height: 10),
-                          TransactionCard(),
+                          TransactionCard(
+                            color: Colors.red,
+                            label: 'Supermarket',
+                          ),
                           SizedBox(height: 10),
-                          TransactionCard(),
+                          TransactionCard(
+                            color: Colors.green,
+                            label: 'Supermarket',
+                          ),
                           SizedBox(height: 10),
                         ],
                       ),
